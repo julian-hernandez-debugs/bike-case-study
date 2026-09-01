@@ -1,1 +1,20 @@
-<div class='tableauPlaceholder' id='viz1788283166270' style='position: relative'><noscript><a href='#'><img alt='Yearly Distribution ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;SQ&#47;SQLTableau_17882268089350&#47;YearlyDistribution&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='SQLTableau_17882268089350&#47;YearlyDistribution' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;SQ&#47;SQLTableau_17882268089350&#47;YearlyDistribution&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1788283166270');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+# 🚲 Bike-Share Data Analysis Case Study
+**Tools Used:** Google BigQuery (SQL), Python (Pandas), Tableau, GitHub
+
+---
+
+## 📈 Project Summary
+This project analyzes historical bike-share trip data to uncover trends, understand user behaviors, and optimize fleet management. By exploring differences between casual riders and annual members, this analysis provides actionable insights to drive subscription growth and marketing efficiency.
+
+## 🔎 The Process & Technical Workflow
+1. **Data Extraction & Cleaning (SQL):** Handled millions of rows in BigQuery. Removed duplicate entries, filtered out test trips, and handled missing station data using structured SQL queries.
+2. **Data Exploration (Python):** Utilized Python to calculate trip durations, analyze seasonal usage distributions, and perform statistical checks on user riding habits.
+3. **Data Visualization (Tableau):** Exported clean aggregated CSV datasets into Tableau to build a dashboard tracking peak demand periods, top routes, and user trends.
+
+## 📊 Key Findings & Discoveries
+* **Peak Usage Differences:** Annual members consistently use the bikes for short, weekday commutes (8 AM and 5 PM peaks), while casual riders dominate on weekends for leisure.
+* **Seasonal Trends:** Summer months account for over 60% of total casual rider volume, representing a prime window for targeted conversions.
+* **Top Stations:** Identified the top 5 high-traffic stations where bike rebalancing is heavily required during weekend afternoons.
+
+## 🎨 View the Interactive Dashboard
+👉 [Click here to explore the live, interactive visualization on Tableau Public!](https://public.tableau.com/views/SQLTableau_17882268089350/YearlyDistribution?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
